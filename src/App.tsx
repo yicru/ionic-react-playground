@@ -7,7 +7,7 @@ import {
   IonRouterOutlet,
   IonTabBar,
   IonTabButton,
-  IonTabs
+  IonTabs,
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { ellipse, square, triangle } from 'ionicons/icons';
@@ -33,6 +33,9 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+
+/* Tailwind CSS */
+import './assets/tailwind-dist.css';
 
 const App: React.FC = () => (
   <IonApp>
